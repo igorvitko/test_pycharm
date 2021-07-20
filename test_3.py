@@ -1,4 +1,9 @@
-import random
+from uuid import uuid4
 
-print(random.randint(2, 10))
-print(random.randint(5, 50))
+for _ in range(5):
+    dto = {
+        "_id": str(uuid4()),
+        "_payroll": str(uuid4())
+    }
+    print(dto)
+
