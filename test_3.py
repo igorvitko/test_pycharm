@@ -1,4 +1,4 @@
 import random
 
-print(random.randint(2, 8))
-print(random.randint(10, 50))
+print(random.randint(2, 10))
+print(random.randint(5, 50))
