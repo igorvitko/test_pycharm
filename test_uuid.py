@@ -1,10 +1,9 @@
-from uuid import uuid4
-
 """
 this file is example of generation uuid
 
 """
 
+from uuid import uuid4
 
 for _ in range(5):
     dto = {

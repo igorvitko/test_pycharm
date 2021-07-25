@@ -1,13 +1,13 @@
+"""
+this is main file of app.py
+
+"""
+
 import datetime
 import json
 import os
 
 from flask import Flask
-
-"""
-this is main module
-
-"""
 
 
 PATH_MAIN = os.path.dirname(os.path.abspath(__file__))
