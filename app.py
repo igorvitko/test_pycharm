@@ -4,6 +4,12 @@ import os
 
 from flask import Flask
 
+"""
+this is main module
+
+"""
+
+
 PATH_MAIN = os.path.dirname(os.path.abspath(__file__))
 RES_PATH = os.path.join(PATH_MAIN, "resources")
 
